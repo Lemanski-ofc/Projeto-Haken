@@ -1,0 +1,16 @@
+HISTORICO DE PROJETO HTML
+
+1 - <!DOCTYPE html> //fala pro navegador o tipo do arquivo.
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeisÉDez - A banda universitaria do povo</title>
+    <meta name="Description" content="Site oficial das SeisÉDez - Descrição, albuns lançamentos e turnes.">
+</head>
+<body> 
+    <header> </header> //cabeçalho
+    <main> </main>//corpo
+    <footer> </footer> //roda pé
+</body>
+</html>
