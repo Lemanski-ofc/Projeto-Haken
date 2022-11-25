@@ -1,4 +1,5 @@
-body {
+body 
+{
     background: rgb(124,27,27);
     background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
      rgba(2,0,36,1) 100%, rgba(121,9,9,1) 100%,rgba(2,2,2,1) 100%);
@@ -9,79 +10,86 @@ body {
     height: 100vh;
     color: #FFF;
 }
-.light_mode{
-    background: rgb(124,27,27);
-    background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
-     rgb(246, 246, 248) 100%, rgba(121,9,9,1) 100%,rgb(246, 240, 240) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    color: #000;
-}
-.botao{
- background-color:#B21010;
- border-radius: 200px;
- border-width: 0;
- padding: 10px;
- margin: 5px;
- color: #FFF;
-}
-#topo {
-    display: flex;
-    flex-direction: row;
+    /* Funções Class*/
+    .light_mode
+    {
+        background: rgb(124,27,27);
+        background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
+        rgb(246, 246, 248) 100%, rgba(121,9,9,1) 100%,rgb(246, 240, 240) 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        color: #000;
+    }
+    .botao
+    {
+        background-color:#B21010;
+        border-radius: 200px;
+        border-width: 0;
+        padding: 10px;
+        margin: 5px;
+        color: #FFF;
+    }
+    .conteudo_item
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        flex: 1;
+        margin: 5px;
+        padding: 10px;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .membro
+    {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .membro p
+    {
+        margin-left: 20px;
+    }
+    .selecao
+    {
+        background-color: rgba(200,200,200,0.2);
+    }
 
-}
-#topo_inicio{
-
-}
-#topo_meio{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex: 1 ;
-}
-#conteudo{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
-#logo_div{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-#logo{
-    width: 60%;
-    min-width: 400px;
-}
-#conteudo_itens{
-    display: flex;
-    flex-direction: row;
-}
-.conteudo_item{
-    font-family: Arial, Helvetica, sans-serif;
-    flex: 1;
-    margin: 5px;
-    padding: 10px;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-}
-.membro{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-
-}
-.membro p{
-    margin-left: 20px;
-}
-
-.selecionado{
-    background-color: rgba(200,200,200,0.2);
-}
-
-
+    /*Funções Tag*/
+    #topo 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    #topo_meio
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1 ;
+    }
+    #conteudo
+    {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+    #logo_div
+    {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #logo
+    {
+        width: 60%;
+        min-width: 400px;
+    }
+    #conteudo_itens
+    {
+        display: flex;
+        flex-direction: row;
+    }

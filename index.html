@@ -4,27 +4,29 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeisÉDez - A banda universitaria do povo</title>
+
     <link rel="stylesheet" href="./css/index.css">
-    
     <script src="./js/index.js"></script>
 </head>
-<body> 
+
+    <body> 
+    <!--Cabeçalho da Landing Page-->
     <div id="topo">
         <div id="topo_inicio">
-            <button class="botao" id="btn_pagina_inicial">
+            <button class="botao" id="btn_pagina_inicial" onclick="{seleciona_parte()}">
                 Página Inicial
             </button>
         </div>
         <div id="topo_meio">
-            <button class="botao" id="btn_infomacoes">
+            <button class="botao" id="btn_infomacoes" onclick="{seleciona_parte()}">
                 Informações
             </button>
 
-            <button class="botao" id="btn_membros">
+            <button class="botao" id="btn_membros"onclick="{seleciona_parte()}">
                 Membros
             </button>
 
-            <button class="botao" id="btn_musicas">
+            <button class="botao" id="btn_musicas"onclick="{seleciona_parte()}">
                 Musicas
             </button>
         </div>
@@ -34,60 +36,83 @@
             </button>
         </div>
     </div>
-   <div id="conteudo">
 
-        <div id="logo_div">
-            <img src="./Images/logo1.png" id="logo" alt="logo">
-        </div>
-    
-        <div id="conteudo_itens">
-            <div id="conteudo_informacoes" class="conteudo_item">
-                <h2>Informações</h2>
-                <p>
-                    rgruhgrugurhgr
-                </p>
+        <!--Parte da Logo da Landing Page-->
+        <div id="conteudo">
+            <div id="logo_div">
+                <img src="./Images/logo1.png" id="logo" alt="logo">
             </div>
+                
+            <!--Parte do conteudo Landing Page-->
+            <div id="conteudo_itens">
+                <div id="conteudo_informacoes" class="conteudo_item">
+                    <h2>Informações</h2>
+                    <p>Fala meus universitarios! Tudo tranquilo? <br>
+                        Nós somos a SeisÉDez, um grupo de amigos que arranha umas musicas para se divertir e esquecer dos problemas da vida e da faculdade.Nós fazemos apresentações em shows e em bares e queremos contar como começamos! <br>
 
-            <div id="conteudo_musicas" class="conteudo_item ">
-                <h2>Musicas</h2>
-                <p>
-                    rgruhgrugurhgr
-                </p>
-            </div>
-            <div id="conteudo_membros" class="conteudo_item selecionado">
-                <h2>Membros</h2>
-                <div id="conteudo_membros_itens">
-                    <div class="membro">
-                        <img src="./Images/Malloki.svg" class="membro_img" alt="Malloki">
-                        <p>
-                            Malloki - 19 Anos
-                            <br>
-                            eguwhthbgrtçg
-                        </p>
-        
-                    </div>
-                    <div class="membro membro_selecionado">
-                        <img src="./Images/Gaby.svg" class="membro_img" alt="Gaby">
-                        <p>
-                            Gaby - 23 Anos
-                            <br>
-                            eguwhthbgrtçg
-                        </p>
-                    </div>
-                    <div class="membro">
-                        <img src="./Images/Sukynho.svg" class="membro_img" alt="Sukynho">
-                        <p>
-                            Sukynho - 18 Anos
-                            <br>
-                            eguwhthbgrtçg
-                        </p>
+                        Nós ja eramos amigos de longa data, mas por causa do fetamut surgiu a ideia de criar uma banda só para a ocasião sabe? então nós nos juntamos e ensaiamos, a apresentação foi um sucesso! <br>
+
+                        Nosso nome pode parecer estranho para os que não “vivem” UTFPR, mas é a nossa filosofia de que o mais importante é passar!<br>
+                        Muitos dizem que um 6 não é suficiente, mais para nós 6 é 10!!!<br>
+
+                        Percebemos que tocar juntos e a correria de ensaiar e se divertir tocando fazia muito bem para nós, então decidimos seguir esse projetinho como um hobbie, que por acaso deu muito certo.<br>
+                        Espero que gostem!!</p>
+                </div>
+
+                <div id="conteudo_musicas" class="conteudo_item ">
+                    <h2>Musicas</h2>
+                    <p> 1 - FMSA <br>
+                        2 - Eu teho saudade de dormir <br>
+                        3 - sofrimento em um papel <br>
+                        4 - caneta da morte <br>
+                        5 - Mordernismo Arcaico só fode o aprendizado <br>
+                        6 - Venderei Arte na Praia <br>
+                        7 - Cafeina <br>
+                        8 - Odeio professor carente <br>
+                        9 - Sadismo e prog não combinam <br>
+                        10 - Suco do RU <br>
+                        11 - Feriado Prolongado :) <br>
+                        12 - 4.5 em comunicação <br>
+                        13 - As 1000 maneiras de organizar um vetor <br>
+                        14 - 1001 noite sem dormir <br>
+                        15 - Indo em conjunto ao médico <br>
+                        16 - amortesalva </p>
+                </div>
+
+                <div id="conteudo_membros" class="conteudo_item selecionado">
+                    <h2>Membros</h2>
+                    <div id="conteudo_membros_itens">
+                        <div class="membro">
+                            <img src="./images/Malloki.svg" class="membro_img" alt="Malloki">
+                            <p>
+                                Malloki - 19 Anos
+                                <br>
+                                Ele é o bateirista da banda, um jovem muito timido e quieto, gosta de mangá e livros de ficção cientifica. E é viciado em cafeina
+                            </p>
+                        </div>
+
+                        <div class="membro membro_selecionado">
+                            <img src="./images/Gaby.svg" class="membro_img" alt="Gaby">
+                            <p>
+                                Gaby - 23 Anos
+                                <br>
+                                A baixista da banda, juro pra você que ja vi ela tocando baixo enquanto dormia. <br>
+                                Uma moça muito preguiçosa, inteligente e talentosa.
+                            </p>
+                        </div>
+                        <div class="membro">
+                            <img src="./images/Sukynho.svg" class="membro_img" alt="Sukynho">
+                            <p>
+                                Sukynho - 18 Anos
+                                <br>
+                                Ele é o guitarrista e vocalista da banda. <br>
+                                Um sujeito muito tranquilo, animado e solto com quem ele conhece, timido com o resto. <br>
+                                Não é dos mais inteligentes, mas é dos mais engraçados.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-   </div>
-</body>
+    </body>
 </html>
