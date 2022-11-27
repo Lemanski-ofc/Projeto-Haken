@@ -13,22 +13,28 @@
     <!--Cabeçalho da Landing Page-->
     <div id="topo">
         <div id="topo_inicio">
-            <button class="botao" id="btn_pagina_inicial" onclick="{seleciona_parte()}">
+            <button class="botao" id="btn_pagina_inicial">
                 Página Inicial
             </button>
         </div>
-        <div id="topo_meio">
-            <button class="botao" id="btn_infomacoes" onclick="{seleciona_parte()}">
-                Informações
-            </button>
+        <div id="topo_meio" class="conteudo_item">
+            <a href="#conteudo_informacoes">
+                <button class="botao" id="btn_infomacoes" href="#conteudo_informacoes">
+                    Informações
+                </button>
+            </a>
 
-            <button class="botao" id="btn_membros"onclick="{seleciona_parte()}">
-                Membros
-            </button>
+            <a href="#conteudo_musicas">
+                <button class="botao" id="btn_musicas" href="#conteudo_musicas">
+                    Musicas
+                </button>
+            </a>
 
-            <button class="botao" id="btn_musicas"onclick="{seleciona_parte()}">
-                Musicas
-            </button>
+            <a href="#conteudo_membros">
+                <button class="botao" id="btn_membros" href="#conteudo_membros">
+                    Membros
+                </button>
+            </a>
         </div>
         <div id="topo_final">
             <button class="botao" id="btn_light/dark_mode" onclick="{troca_tema()}">
