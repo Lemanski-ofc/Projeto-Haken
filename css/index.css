@@ -1,6 +1,5 @@
 body 
 {
-    background: rgb(124,27,27);
     background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
      rgba(2,0,36,1) 100%, rgba(121,9,9,1) 100%,rgba(2,2,2,1) 100%);
     background-repeat: no-repeat;
@@ -10,10 +9,9 @@ body
     height: 100vh;
     color: #FFF;
 }
-    /* Funções Class*/
+    /* Funcoes Class*/
     .light_mode
     {
-        background: rgb(124,27,27);
         background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
         rgb(246, 246, 248) 100%, rgba(121,9,9,1) 100%,rgb(246, 240, 240) 100%);
         background-repeat: no-repeat;
@@ -21,7 +19,6 @@ body
         display: flex;
         flex-direction: column;
         height: 100vh;
-        color: #000;
     }
     .botao
     {
@@ -51,12 +48,8 @@ body
     {
         margin-left: 20px;
     }
-    .selecao
-    {
-        background-color: rgba(200,200,200,0.2);
-    }
 
-    /*Funções Tag*/
+    /*Funcoes Tag*/
     #topo 
     {
         display: flex;
