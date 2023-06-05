@@ -12,8 +12,8 @@ body
     /* Funcoes Class*/
     .light_mode
     {
-        background: linear-gradient(0deg, rgba(124,27,27,1) 0%,
-        rgb(246, 246, 248) 100%, rgba(121,9,9,1) 100%,rgb(246, 240, 240) 100%);
+        background: linear-gradient(0deg, hsl(281, 100%, 12%) 0%,
+        rgb(246, 246, 248) 100%, hsl(281, 100%, 12%)100%,rgb(246, 240, 240) 100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: flex;
@@ -22,7 +22,7 @@ body
     }
     .botao
     {
-        background-color:#B21010;
+        background-color:#9508b8;
         border-radius: 200px;
         border-width: 0;
         padding: 10px;
